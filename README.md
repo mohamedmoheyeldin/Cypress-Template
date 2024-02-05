@@ -1,2 +1,2 @@
 # Cypress-Template
-Cypress Project With Some Custom work As Template
+Cypress Project With Some Custom Work As Template
