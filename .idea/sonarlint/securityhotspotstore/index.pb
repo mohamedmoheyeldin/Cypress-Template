@@ -84,3 +84,7 @@ M
 cypress/fixtures/profile.json,4/0/40ce6c9a374adb0a90513f70dda5022a1b1dca17
 K
 cypress/fixtures/users.json,7/6/76a2f2a33ad2471de0c76129951d20ba6fb63b9d
+M
+.github/workflows/cypress.yml,7/2/722c097827979a36e14a305ca85fdaad8f698a06
+R
+".github/workflows/cypress_push.yml,2/6/26b496a6c8ea6987ebc18b23c814febfddf9de2f
