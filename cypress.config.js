@@ -21,9 +21,6 @@ module.exports = defineConfig({
         setupNodeEvents(on, config) {
             require('cypress-mochawesome-reporter/plugin')(on);
         },
-        screenshotsFolder: 'reports/screenshots',
-        videosFolder: 'reports/videos',
-
         baseUrl: 'https://www.google.com',
         viewportHeight: 1080,
         viewportWidth: 1920,

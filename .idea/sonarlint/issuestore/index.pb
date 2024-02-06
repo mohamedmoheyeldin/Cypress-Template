@@ -78,3 +78,9 @@ Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf302663
 Q.idea/sonarlint/securityhotspotstore/c/b/cb145b820b06c497f093abf819116482af263d56,d/8/d8ee601f953d815ae0422e003b7c3ca41779a4b8
 Å
 Q.idea/sonarlint/securityhotspotstore/c/c/ccce1f3426de57a34f01ae026a2f13007c767429,d/9/d9805d16e93763628d776cf5becbc733702ec4f1
+R
+".github/workflows/push_request.yml,1/b/1bb936033b49fc5714bd091abe4c0dfbed3fe658
+M
+cypress/fixtures/profile.json,4/0/40ce6c9a374adb0a90513f70dda5022a1b1dca17
+K
+cypress/fixtures/users.json,7/6/76a2f2a33ad2471de0c76129951d20ba6fb63b9d
