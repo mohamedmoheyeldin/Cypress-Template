@@ -23,10 +23,6 @@ jobs:
           parallel: true # Runs test in parallel using settings above
       - uses: actions/upload-artifact@v3
         continue-on-error: true
-        if: always()
-        with:
-          name: Cypress HTML Report
-          path: cypress/reports/html
         env:
           # For recording and parallelization to work you must set your CYPRESS_RECORD_KEY
           # in GitHub repo → Settings → Secrets → Actions
