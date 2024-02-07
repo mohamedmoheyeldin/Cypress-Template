@@ -19,8 +19,8 @@ jobs:
         with:
           # Records to Cypress Cloud
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
-          record: true
-          parallel: true # Runs test in parallel using settings above
+          record: fails
+          parallel: fails # Runs test in parallel using settings above
       - uses: actions/upload-artifact@v3
         continue-on-error: true
         if: always()
