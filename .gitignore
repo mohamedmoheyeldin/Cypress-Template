@@ -138,14 +138,7 @@ dist
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-
-
+/cypress/screenshots
+/cypress/videos
+/reports
 /.idea/
-/.idea/sonarlint/
-/cypress/downloads/
-
-# reports
-reports
-cypress/videos/**.mp4
-cypress/videos
-cypress/screenshots/
