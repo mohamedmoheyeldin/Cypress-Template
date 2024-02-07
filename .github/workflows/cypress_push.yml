@@ -7,8 +7,9 @@ jobs:
       matrix:
         containers: [1, 2, 3, 4, 5]
     steps:
-      - name: Cypress run
+      - name: Checkout
         uses: cypress-io/github-action@v6
+      - name: Cypress run
         with:
           record: true
           parallel: true
