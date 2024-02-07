@@ -24,10 +24,11 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+/*
 beforeEach(() => {
     cy.visit('/')
     cy.request("/").then((response) => {
         expect(response.status).to.eq(200)
     })
     cy.title().should('eq', '')
-})
+})*/

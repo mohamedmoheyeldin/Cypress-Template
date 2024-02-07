@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false # https://github.com/cypress-io/github-action/issues/48
       matrix:
-        containers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] # Uses 2 parallel instances
+        containers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,8 +19,8 @@ jobs:
         with:
           # Records to Cypress Cloud
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
-          record: fails
-          parallel: fails # Runs test in parallel using settings above
+          record: true
+          parallel: true # Runs test in parallel using settings above
       - uses: actions/upload-artifact@v3
         continue-on-error: true
         if: always()
