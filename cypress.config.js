@@ -3,22 +3,6 @@ const {defineConfig} = require("cypress");
 module.exports = defineConfig({
   projectId: '9ztpvz',
     e2e: {
-        reporter: 'cypress-mochawesome-reporter',
-        reporterOptions: {
-            reportDir: 'reports/html',
-            reportPageTitle: 'DEVAIS Cypress Automation Report',
-            charts: true,
-            quiet: false,
-            showPassed: true,
-            showFailed: true,
-            showSkipped: true,
-            showPending: true,
-            showHooks: 'always',
-            inlineAssets: true,
-            saveAllAttempts: true,
-            showTestDuration: true,
-            embeddedScreenshots: true
-        },
         setupNodeEvents(on, config) {
             require('cypress-mochawesome-reporter/plugin')(on);
         },
