@@ -18,3 +18,16 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+import 'cypress-axe'
+
+const CypressFilters = require('cypress-filters');
+new CypressFilters().register();
+//*
+// https://www.npmjs.com/package/cypress-filters
+// Add Tags to tests
+//      it('My super cool test @smoke @usability', () => {
+//      ...
+//      ...
+//     })
+
+// */

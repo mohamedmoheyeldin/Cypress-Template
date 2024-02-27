@@ -31,4 +31,5 @@ beforeEach(() => {
         expect(response.status).to.eq(200)
     })
     cy.title().should('eq', '')
+    cy.injectAxe()
 })*/
