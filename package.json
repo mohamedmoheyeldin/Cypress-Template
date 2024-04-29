@@ -22,10 +22,9 @@
   "devDependencies": {
       "cypress": "latest",
     "cypress-mochawesome-reporter": "latest",
-    "cypress-cucumber-preprocessor": "latest"
+    "cypress-cucumber-preprocessor": "latest",
     "cypress-axe": "latest",
     "cypress-filters": "latest",
-    "cypress-mochawesome-reporter": "latest",
     "cypress-parallel": "latest"
   }
 }
