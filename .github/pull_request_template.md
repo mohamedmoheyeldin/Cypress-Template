@@ -1,5 +1,5 @@
 <!---  Pull Request Title: -->
-## Add Some Cypress Test Cases
+## Pull Request
 
 
 ## Description
@@ -16,7 +16,7 @@ Explain how you tested the changes. Mention any test scenarios, data, or environ
 Status:
 - [ ] Pass
 - [ ] Fail
-- [ ] Skip
+- [x] Skip
 - [ ] Pending _No UI_
 
 [Link Name](https://.......) 
@@ -24,7 +24,7 @@ Status:
 Status:
 - [ ] Pass
 - [ ] Fail
-- [ ] Skip
+- [x] Skip
 - [ ] Pending  
 
 
@@ -48,7 +48,7 @@ Add custom commands, methods in `commands.js`
 
 ## Checklist:
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
-- [ ] New feature (non-breaking change which adds functionality)
+- [x] New feature (non-breaking change which adds functionality)
 - [ ] All existing tests pass.
 - [ ] New tests have been added where necessary.
 - [ ] Documentation (if applicable) has been updated.
