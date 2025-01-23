@@ -20,11 +20,15 @@
   },
   "homepage": "https://github.com/mohamedmoheyeldin/Cypress-Template#readme",
   "devDependencies": {
-      "cypress": "latest",
-    "cypress-mochawesome-reporter": "latest",
-    "cypress-cucumber-preprocessor": "latest",
-    "cypress-axe": "latest",
-    "cypress-filters": "latest",
-    "cypress-parallel": "latest"
+    "@cypress/grep": "^4.1.0",
+    "cypress": "^14.0.0",
+    "cypress-ajv-schema-validator": "^1.4.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-parallel": "^0.14.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-cypress": "^4.1.0"
+  },
+  "dependencies": {
+    "@neuralegion/cypress-har-generator": "^5.17.0"
   }
 }
