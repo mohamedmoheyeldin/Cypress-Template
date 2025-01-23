@@ -20,9 +20,7 @@
     "@cypress/grep": "^4.1.0",
     "cypress": "^14.0.0",
     "cypress-ajv-schema-validator": "^1.4.0",
-    "cypress-parallel": "^0.1.8",
-    "eslint": "^9.18.0",
-    "eslint-plugin-cypress": "^4.1.0"
+    "playwright-webkit": "^1.50.0"
   },
   "dependencies": {
     "@neuralegion/cypress-har-generator": "^5.17.0"
