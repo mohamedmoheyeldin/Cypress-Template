@@ -15,16 +15,12 @@
   },
   "author": "Mohamed Moheyeldin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mohamedmoheyeldin/Cypress-Template/issues"
-  },
   "homepage": "https://github.com/mohamedmoheyeldin/Cypress-Template#readme",
   "devDependencies": {
     "@cypress/grep": "^4.1.0",
     "cypress": "^14.0.0",
     "cypress-ajv-schema-validator": "^1.4.0",
-    "cypress-mochawesome-reporter": "^3.8.2",
-    "cypress-parallel": "^0.14.0",
+    "cypress-parallel": "^0.1.8",
     "eslint": "^9.18.0",
     "eslint-plugin-cypress": "^4.1.0"
   },
